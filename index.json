@@ -3830,10 +3830,12 @@
     },
     {
       "fullPath": "presets/4.4/other/Shrike.txt",
-      "hash": "71de5b5adcf77dcff6ce1c6f92baef98d50ae02752abd1367a7d1fdac6ec56d8",
+      "hash": "010181a94cb2053480af64532d8f20a10921b59d43e851cf6dd9fd20e2688cfa",
       "title": "Shrike preset",
       "firmware_version": [
-        "4.4"
+        "4.3",
+        "4.4",
+        "4.5"
       ],
       "category": "OTHER",
       "status": "EXPERIMENTAL",
@@ -3841,7 +3843,6 @@
         "shrike"
       ],
       "author": "Owlbro",
-      "force_options_review": true,
       "priority": 0
     },
     {

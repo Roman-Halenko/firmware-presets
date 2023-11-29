@@ -1,5 +1,7 @@
 #$ TITLE: Shrike preset
+#$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: shrike
@@ -7,8 +9,6 @@
 #$ DESCRIPTION: Full drone setup
 
 #$ WARNING: None
-
-#$ FORCE_OPTIONS_REVIEW: TRUE
 
 # vtx power 4 levels on aux 2
 vtx 0 1 0 0 1 900 1200
@@ -132,6 +132,7 @@ set osd_gps_sats_show_hdop = OFF
 set small_angle = 180
 vtx_low_power_disarm = UNTIL_FIRST_ARM
 set yaw_motors_reversed = ON
+set motor_pwm_protocol = DSHOT600
 
 # beeper
 beacon rx_set
