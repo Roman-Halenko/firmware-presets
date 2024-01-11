@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: OSD
+#$ KEYWORDS: OSD, IV
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: Ignis Vindicta common OSD settings
 
