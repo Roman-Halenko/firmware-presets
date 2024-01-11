@@ -13,34 +13,34 @@
 #$ DESCRIPTION: Middle position in 3-pos switch is required to make channel switch possible.
 #$ WARNING: Make sure you picked correct option, according to amount of VTX power levels! Make sure your VTX table band index match: R = 5, F = 4! If it's not - DON'T USE THIS PRESET!!
 
-# OPTION BEGIN (CHECKED): 4 levels
-    # Power level switch min-max
-    vtx 0 1 0 0 1 900 1500
-    vtx 1 1 0 0 4 1500 2100
-    # Band switch R-F
-    vtx 2 6 5 0 0 900 1300
-    vtx 3 6 4 0 0 1700 2100
-    # Channel switch 1-6
-    vtx 4 5 0 1 0 900 1100
-    vtx 5 5 0 2 0 1100 1300
-    vtx 6 5 0 3 0 1300 1500
-    vtx 7 5 0 4 0 1500 1700
-    vtx 8 5 0 5 0 1700 1900
-    vtx 9 5 0 6 0 1900 2100
-# OPTION END
+#$ OPTION BEGIN (CHECKED): 4 levels
+  # Power level switch min-max
+  vtx 0 1 0 0 1 900 1500
+  vtx 1 1 0 0 4 1500 2100
+  # Band switch R-F
+  vtx 2 6 5 0 0 900 1300
+  vtx 3 6 4 0 0 1700 2100
+  # Channel switch 1-6
+  vtx 4 5 0 1 0 900 1100
+  vtx 5 5 0 2 0 1100 1300
+  vtx 6 5 0 3 0 1300 1500
+  vtx 7 5 0 4 0 1500 1700
+  vtx 8 5 0 5 0 1700 1900
+  vtx 9 5 0 6 0 1900 2100
+#$ OPTION END
 
-# OPTION BEGIN (UNCHECKED): 5 levels
-    # Power level switch min-max
-    vtx 0 1 0 0 1 900 1500
-    vtx 1 1 0 0 5 1500 2100
-    # Band switch R-F
-    vtx 2 6 5 0 0 900 1300
-    vtx 3 6 4 0 0 1700 2100
-    # Channel switch 1-6
-    vtx 4 5 0 1 0 900 1100
-    vtx 5 5 0 2 0 1100 1300
-    vtx 6 5 0 3 0 1300 1500
-    vtx 7 5 0 4 0 1500 1700
-    vtx 8 5 0 5 0 1700 1900
-    vtx 9 5 0 6 0 1900 2100
-# OPTION END
+#$ OPTION BEGIN (UNCHECKED): 5 levels
+  # Power level switch min-max
+  vtx 0 1 0 0 1 900 1500
+  vtx 1 1 0 0 5 1500 2100
+  # Band switch R-F
+  vtx 2 6 5 0 0 900 1300
+  vtx 3 6 4 0 0 1700 2100
+  # Channel switch 1-6
+  vtx 4 5 0 1 0 900 1100
+  vtx 5 5 0 2 0 1100 1300
+  vtx 6 5 0 3 0 1300 1500
+  vtx 7 5 0 4 0 1500 1700
+  vtx 8 5 0 5 0 1700 1900
+  vtx 9 5 0 6 0 1900 2100
+#$ OPTION END
