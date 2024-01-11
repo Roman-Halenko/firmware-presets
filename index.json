@@ -3775,13 +3775,13 @@
     },
     {
       "fullPath": "presets/4.4/osd/IV_OSD.txt",
-      "hash": "d17e144fa5d3566e95a32181130699748fe47afb07845342a0568667dce2f779",
+      "hash": "4bb23ca144901897ff4002f4537a07fb7b28e54e8e02cc2d3c3c7ebff2346774",
       "title": "Ignis Vindicta OSD settings",
       "firmware_version": [
         "4.4"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "OSD",
         "IV"
