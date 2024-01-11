@@ -312,6 +312,7 @@
       "expert",
       "express",
       "Extreme",
+      "failsafe",
       "feisar",
       "filter",
       "filtering",
@@ -3877,6 +3878,25 @@
         "100euro"
       ],
       "author": "antonig",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/IV_kamikaze_failsafe.txt",
+      "hash": "7c9cd32e45bc1ed6928275938dca6fc2b42783713b441be923a008097d5653cf",
+      "title": "Ignis Vindicta kamikaze failsafe",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "failsafe",
+        "kamikaze",
+        "iv"
+      ],
+      "author": "SOVA",
       "priority": 0
     },
     {
