@@ -4881,6 +4881,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/IV_VTX_switch.txt",
+      "hash": "f91fc2b7ae9e8e8f06d38286e775f014cdf7cdf789fdd62b0425c4c0a69aca6f",
+      "title": "Ignis Vindicta VTX band-channel-power switch",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "VTX",
+        "switch",
+        "iv"
+      ],
+      "author": "SOVA",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.5/other/custom_nmea.txt",
       "hash": "10931aba011ca232171d37cdacdc287d5f261a8de12bb2f75bb9eef3f9c7b3bc",
       "title": "Custom NMEA commands",
