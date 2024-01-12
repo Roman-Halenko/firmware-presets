@@ -285,6 +285,7 @@
       "cinewhoop",
       "clean",
       "clear",
+      "common",
       "Configure",
       "control",
       "Crossfire",
@@ -332,6 +333,7 @@
       "freetyle",
       "frsky",
       "Garban",
+      "general",
       "ghost",
       "GHST",
       "GoPro",
@@ -3809,10 +3811,12 @@
     },
     {
       "fullPath": "presets/4.4/osd/IV_OSD.txt",
-      "hash": "4bb23ca144901897ff4002f4537a07fb7b28e54e8e02cc2d3c3c7ebff2346774",
+      "hash": "f99c68e9d8455c2913c58e7c43b0e499b175a34e946bcfbc7667aa883147d3dc",
       "title": "Ignis Vindicta OSD settings",
       "firmware_version": [
-        "4.4"
+        "4.3",
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "EXPERIMENTAL",
@@ -3881,7 +3885,26 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/other/IV_kamikaze_failsafe.txt",
+      "fullPath": "presets/4.4/other/IV_common_drone_settings.txt",
+      "hash": "7c729cf40a6880522b9d36ee95b127a40f6fb58db38dfede068253bf02f087c9",
+      "title": "Ignis Vindicta common drone settings",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "common",
+        "iv",
+        "general"
+      ],
+      "author": "SOVA",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/other/IV_kamikaze_failsafe copy.txt",
       "hash": "7c9cd32e45bc1ed6928275938dca6fc2b42783713b441be923a008097d5653cf",
       "title": "Ignis Vindicta kamikaze failsafe",
       "firmware_version": [
