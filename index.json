@@ -274,6 +274,7 @@
       "blackbox",
       "BMS",
       "BMSThomas",
+      "bomber",
       "brushless",
       "camera",
       "camera_control",
@@ -354,7 +355,7 @@
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
-      "IV",
+      "iv",
       "juicy",
       "justice",
       "kamikaze",
@@ -3791,6 +3792,24 @@
         "tiny"
       ],
       "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/modes/IV_Bomber_modes.txt",
+      "hash": "e997e85fcaa95b7079425b3ca6fcb5c21e1c251c484b396e31ab1e2b891027a1",
+      "title": "Ignis Vindicta bomber modes",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "bomber",
+        "modes",
+        "iv"
+      ],
+      "author": "SOVA",
       "priority": 0
     },
     {
