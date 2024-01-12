@@ -1,0 +1,24 @@
+#$ TITLE: Ignis Vindicta common drone settings
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: common, iv, general
+#$ AUTHOR: SOVA
+#$ DESCRIPTION: Failsafe settings for kamikaze to continue flight on a target
+
+set small_angle = 180
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+set rc_smoothing = ON
+
+mixer QUADX
+
+# beacon
+beacon -RX_LOST
+beacon RX_SET
+
+# map
+map AETR1234
+
+feature OSD
