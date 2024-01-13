@@ -1,0 +1,37 @@
+#$ TITLE: Ignis Vindicta VTX power switch
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: VTX
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: VTX, switch, iv
+#$ AUTHOR: SOVA
+#$ DESCRIPTION: VTX switch options:
+#$ DESCRIPTION: AUX2 - power levels from 1 to max (4 or 5).
+#$ WARNING: Make sure you picked correct option, according to amount of VTX power levels!
+
+#$ OPTION BEGIN (CHECKED): 4 levels
+  vtx 0 1 0 0 1 900 1200
+  vtx 1 1 0 0 4 1200 1500
+  vtx 2 6 5 0 0 1500 1800
+  vtx 3 6 4 0 0 1800 2100
+  vtx 4 0 0 0 0 900 900
+  vtx 5 0 0 0 0 900 900
+  vtx 6 0 0 0 0 900 900
+  vtx 7 0 0 0 0 900 900
+  vtx 8 0 0 0 0 900 900
+  vtx 9 0 0 0 0 900 900
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 5 levels
+  vtx 0 1 0 0 1 900 1200
+  vtx 1 1 0 0 2 1200 1450
+  vtx 2 1 0 0 3 1450 1700
+  vtx 3 1 0 0 4 1700 1950
+  vtx 4 1 0 0 5 1950 2100
+  vtx 5 0 0 0 0 900 900
+  vtx 6 0 0 0 0 900 900
+  vtx 7 0 0 0 0 900 900
+  vtx 8 0 0 0 0 900 900
+  vtx 9 0 0 0 0 900 900
+#$ OPTION END

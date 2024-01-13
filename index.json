@@ -4961,6 +4961,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/vtx/IV_VTX_switch_power_only.txt",
+      "hash": "646bce6608be34606cc856f9241113cd8e217f70bc9db18544a0934b48698f3f",
+      "title": "Ignis Vindicta VTX power switch",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "VTX",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "VTX",
+        "switch",
+        "iv"
+      ],
+      "author": "SOVA",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.5/other/custom_nmea.txt",
       "hash": "10931aba011ca232171d37cdacdc287d5f261a8de12bb2f75bb9eef3f9c7b3bc",
       "title": "Custom NMEA commands",
