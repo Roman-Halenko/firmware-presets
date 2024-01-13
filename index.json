@@ -355,7 +355,7 @@
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
-      "iv",
+      "IV",
       "juicy",
       "justice",
       "kamikaze",
@@ -864,6 +864,22 @@
         "switch"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/IV_OSD.txt",
+      "hash": "60272a2746cf2e86d4fd9b0cab46c6cc8974ed9040fc95ed9ba36f2b408d4a17",
+      "title": "Ignis Vindicta OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "OSD",
+        "IV"
+      ],
+      "author": "SOVA",
       "priority": 0
     },
     {
@@ -3830,10 +3846,9 @@
     },
     {
       "fullPath": "presets/4.4/osd/IV_OSD.txt",
-      "hash": "f99c68e9d8455c2913c58e7c43b0e499b175a34e946bcfbc7667aa883147d3dc",
+      "hash": "7de0481ac15a78f741854d284977f63a8ea3021de8d0c5d11d8096159011abef",
       "title": "Ignis Vindicta OSD settings",
       "firmware_version": [
-        "4.3",
         "4.4",
         "4.5"
       ],
