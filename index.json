@@ -4958,8 +4958,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/IV_VTX_switch.txt",
-      "hash": "5b992e5ddeac1c0e89153abc0e575f024887bd4fccfa8e6f6dac6431df137e58",
-      "title": "Ignis Vindicta VTX band-channel-power switch",
+      "hash": "7d8a5c3b486ff5248dac471bc5387053608f93d0b540f0356fe3176045c89fab",
+      "title": "Ignis Vindicta VTX channel and power switch",
       "firmware_version": [
         "4.3",
         "4.4",
