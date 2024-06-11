@@ -11,10 +11,48 @@
 #$ INCLUDE: presets/4.3/modes/R9_kamikaze_modes.txt
 #$ INCLUDE: presets/4.4/other/R9_common_drone_settings.txt
 #$ INCLUDE: presets/4.4/other/R9_kamikaze_failsafe.txt
+
 #$ OPTION BEGIN (CHECKED): 4 levels
+  # Power level switch
+  vtx 0 1 0 0 1 900 1200
+  vtx 1 1 0 0 2 1200 1500
+  vtx 2 1 0 0 3 1500 1800
+  vtx 3 1 0 0 4 1800 2100
+  # Channel switch
+  vtx 4 5 0 0 0 900 1100  # any
+  vtx 5 5 5 1 0 1100 1300 # R1
+  vtx 6 5 5 2 0 1300 1500 # R2
+  vtx 7 5 5 7 0 1500 1700 # R7
+  vtx 8 5 5 8 0 1700 1900 # R8
+  vtx 9 5 3 8 0 1900 2100 # E8
 #$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 5 levels
+  # Power level switch
+  vtx 0 1 0 0 1 900 1200
+  vtx 1 1 0 0 2 1200 1500
+  vtx 2 1 0 0 3 1500 1800
+  vtx 3 1 0 0 5 1800 2100
+  # Channel switch 1-6
+  vtx 4 5 0 0 0 900 1100  # any
+  vtx 5 5 5 1 0 1100 1300 # R1
+  vtx 6 5 5 2 0 1300 1500 # R2
+  vtx 7 5 5 7 0 1500 1700 # R7
+  vtx 8 5 5 8 0 1700 1900 # R8
+  vtx 9 5 3 8 0 1900 2100 # E8
 #$ OPTION END
+
 #$ OPTION BEGIN (UNCHECKED): 6 levels
+  # Power level switch
+  vtx 0 1 0 0 1 900 1200
+  vtx 1 1 0 0 2 1200 1500
+  vtx 2 1 0 0 4 1500 1800
+  vtx 3 1 0 0 6 1800 2100
+  # Channel switch 1-6
+  vtx 4 5 0 0 0 900 1100  # any
+  vtx 5 5 5 1 0 1100 1300 # R1
+  vtx 6 5 5 2 0 1300 1500 # R2
+  vtx 7 5 5 7 0 1500 1700 # R7
+  vtx 8 5 5 8 0 1700 1900 # R8
+  vtx 9 5 3 8 0 1900 2100 # E8
 #$ OPTION END
-#$ INCLUDE: presets/4.4/vtx/R9_VTX_switch.txt

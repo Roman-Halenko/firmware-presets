@@ -1036,7 +1036,7 @@
     },
     {
       "fullPath": "presets/4.3/other/R9_kamikaze.txt",
-      "hash": "702514ebc3990a66ddd9258dcb03caebba6610dd74fad5d6ea725e243ada3218",
+      "hash": "75e52500e304e88f1f4c17c09a9fc305200b61e01ba3766739c600ac1a4656ce",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.3"
@@ -4557,7 +4557,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_kamikaze.txt",
-      "hash": "6fa2e79f3aa963482b21e8ac91c33a42e37b8636ea4bacf6ed995de321e76e8d",
+      "hash": "0b692d08ee507852d7102c754b8c86215a66d6e67b20a62deb4cfd211ea7f89d",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.4",
