@@ -1,23 +1,23 @@
-#$ TITLE: Ignis Vindicta kamikaze failsafe
+#$ TITLE: R9 bomber failsafe
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: failsafe, kamikaze, iv
+#$ KEYWORDS: failsafe, bomber, iv
 #$ AUTHOR: SOVA
-#$ DESCRIPTION: Failsafe settings for kamikaze to continue flight on a target
+#$ DESCRIPTION: Failsafe settings for bomber to lead aircraft back to strong signal area.
 
 # rxfail
 rxfail 0 a
 rxfail 1 a
-rxfail 2 a
-rxfail 3 h
+rxfail 2 s 1600
+rxfail 3 s 1550
 rxfail 4 h
 rxfail 5 h
 rxfail 6 h
 rxfail 7 h
-rxfail 8 h
+rxfail 8 s 2000
 rxfail 9 h
 rxfail 10 h
 rxfail 11 h
@@ -30,7 +30,7 @@ rxfail 17 h
 
 set failsafe_delay = 200
 set failsafe_off_delay = 200
-set failsafe_throttle = 1600
+set failsafe_throttle = 1500
 set failsafe_switch_mode = STAGE1
 set failsafe_throttle_low_delay = 100
 set failsafe_procedure = AUTO-LAND

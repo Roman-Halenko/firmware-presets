@@ -1,4 +1,4 @@
-#$ TITLE: Ignis Vindicta common drone settings
+#$ TITLE: R9 common drone settings
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5

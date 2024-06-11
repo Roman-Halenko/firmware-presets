@@ -1,14 +1,12 @@
-#$ TITLE: Ignis Vindicta kamikaze modes
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: R9 kamikaze modes
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: modes
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: kamikaze, modes
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: Modes preset for kamikaze with controlled initiation circuit.
-#$ DESCRIPTION: Requires servo_tilt feature.
 #$ DESCRIPTION: Sets servo 1 to AUX 4.
 #$ DESCRIPTION: Makes Air mode optional.
-#$ WARNING: Make sure that your Betaflight 4.4.* build includes SERVO!
 
 feature -AIRMODE
 feature SERVO_TILT
@@ -20,8 +18,8 @@ aux 0 0 0 1800 2100 0 0
 aux 1 1 4 1800 2100 0 0
 aux 2 13 2 1800 2100 0 0
 aux 3 28 4 900 1200 0 0
-aux 4 39 7 1800 2100 0 0
-aux 5 53 3 1200 2100 0 0
+aux 4 39 7 1800 2075 0 0
+aux 5 0 0 900 900 0 0
 aux 6 0 0 900 900 0 0
 aux 7 0 0 900 900 0 0
 aux 8 0 0 900 900 0 0

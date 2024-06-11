@@ -1,4 +1,4 @@
-#$ TITLE: Ignis Vindicta VTX power switch
+#$ TITLE: R9 VTX power switch
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
