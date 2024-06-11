@@ -6,8 +6,8 @@
 #$ KEYWORDS: R9, full
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: Includes: OSD, Modes, VTX power and channels switch, Common settings, Failsafe
-#$ INCLUDE_WARNING: presets/4.4/modes/R9_kamikaze_modes.txt
-#$ INCLUDE_WARNING: presets/4.4/vtx/R9_VTX_switch.txt
+#$ INCLUDE_WARNING: misc/warnings/en/R9_servo.txt
+#$ INCLUDE_WARNING: misc/warnings/en/R9_VTX_switch.txt
 
 #$ INCLUDE: presets/4.4/osd/R9_OSD.txt
 #$ INCLUDE: presets/4.4/modes/R9_kamikaze_modes.txt

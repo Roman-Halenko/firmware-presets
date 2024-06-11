@@ -1036,7 +1036,7 @@
     },
     {
       "fullPath": "presets/4.3/other/R9_kamikaze.txt",
-      "hash": "1daa37de35d790f10bc2a29b317a64821a1bc6a6c98872248872301fe5db3739",
+      "hash": "702514ebc3990a66ddd9258dcb03caebba6610dd74fad5d6ea725e243ada3218",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.3"
@@ -4428,7 +4428,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/R9_kamikaze_modes.txt",
-      "hash": "ef8d119f3dd8e764f4c6b3ba84e211d15bc906dbd045375f4d5bfa02c33d01b9",
+      "hash": "7ed92d2e24c75be441a9c6b124065d1f1ea7c16a9a8e08a1161e3a2141737053",
       "title": "R9 kamikaze modes",
       "firmware_version": [
         "4.4",
@@ -4557,7 +4557,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_kamikaze.txt",
-      "hash": "9479c5484fa6ea3aa19746089f37b72a54dd3112fd993c663d8fe60df5eebc9e",
+      "hash": "6fa2e79f3aa963482b21e8ac91c33a42e37b8636ea4bacf6ed995de321e76e8d",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.4",
@@ -5857,7 +5857,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/R9_VTX_switch.txt",
-      "hash": "534515136cba63bc26c1cb28e06cee09e8722a69d08f13a899dd4b29e387de4b",
+      "hash": "3c1a4d697d106dbeaa6619878f2210e0078f1613a6e70a2bd06866de7f5fa954",
       "title": "R9 VTX channel and power switch",
       "firmware_version": [
         "4.3",

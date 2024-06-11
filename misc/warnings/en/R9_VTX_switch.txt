@@ -1,0 +1,1 @@
+Make sure you picked correct option, according to amount of VTX power levels! Make sure your VTX table band index match: R = 5, E = 3!

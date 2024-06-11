@@ -5,16 +5,16 @@
 #$ KEYWORDS: R9, full
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: Includes: OSD, Modes, VTX power and channels switch, Common settings, Failsafe
-#$ INCLUDE_WARNING: presets/4.4/vtx/R9_VTX_switch.txt
+#$ INCLUDE_WARNING: misc/warnings/en/R9_VTX_switch.txt
 
 #$ INCLUDE: presets/4.3/osd/R9_OSD.txt
 #$ INCLUDE: presets/4.3/modes/R9_kamikaze_modes.txt
 #$ INCLUDE: presets/4.4/other/R9_common_drone_settings.txt
 #$ INCLUDE: presets/4.4/other/R9_kamikaze_failsafe.txt
-#$ OPTION BEGIN (CHECKED): <4 levels>
+#$ OPTION BEGIN (CHECKED): 4 levels
 #$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): <5 levels>
+#$ OPTION BEGIN (UNCHECKED): 5 levels
 #$ OPTION END
-#$ OPTION BEGIN (UNCHECKED): <6 levels>
+#$ OPTION BEGIN (UNCHECKED): 6 levels
 #$ OPTION END
 #$ INCLUDE: presets/4.4/vtx/R9_VTX_switch.txt

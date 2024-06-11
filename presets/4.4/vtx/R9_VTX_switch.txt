@@ -10,7 +10,7 @@
 #$ DESCRIPTION: AUX2 - power levels
 #$ DESCRIPTION: AUX6 - channels 2-6 (Button 1 is used to set any channel from betaflight configurator/OSD menu)
 #$ DESCRIPTION: Middle position in 3-pos switch is required to make channel switch possible.
-#$ WARNING: Make sure you picked correct option, according to amount of VTX power levels! Make sure your VTX table band index match: R = 5, E = 3! If it's not - DON'T USE THIS PRESET!!
+#$ INCLUDE_WARNING: misc/warnings/en/R9_VTX_switch.txt
 
 #$ OPTION BEGIN (CHECKED): 4 levels
   # Power level switch

@@ -9,7 +9,7 @@
 #$ DESCRIPTION: Requires servo_tilt feature.
 #$ DESCRIPTION: Sets servo 1 to AUX 4.
 #$ DESCRIPTION: Makes Air mode optional.
-#$ WARNING: Make sure that your Betaflight 4.4.* build includes SERVO!
+#$ INCLUDE_WARNING: misc/warnings/en/R9_servo.txt
 
 feature -AIRMODE
 feature SERVO_TILT
