@@ -1,5 +1,6 @@
-#$ TITLE: Full kamikaze setup
-#$ FIRMWARE_VERSION: 4.4, 4.5
+#$ TITLE: R9 full kamikaze setup
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: R9, full
