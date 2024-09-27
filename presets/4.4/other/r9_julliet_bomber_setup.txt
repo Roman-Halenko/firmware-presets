@@ -1,0 +1,104 @@
+#$ TITLE: R9 Julliet Complete bomber setup
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: VTX, switch, failsafe, servo, OSD
+#$ AUTHOR: Andrii Tykhan
+#$ WARNING: Make sure you picked correct option, according to amount of VTX power levels!
+#$ WARNING: Make sure your Betaflight 4.4.* build includes SERVO (skip this warning for Betaflight 4.3.*)!
+
+
+set vtx_low_power_disarm = UNTIL_FIRST_ARM
+#$ OPTION BEGIN (CHECKED): VTX 4 levels               
+  vtx 0 5 0 0 1 900 1200
+  vtx 1 5 0 0 2 1400 1600
+  vtx 2 5 0 0 4 1600 2100
+  vtx 3 1 0 0 4 900 900
+  vtx 4 0 0 0 0 900 900
+  vtx 5 0 0 0 0 900 900
+  vtx 6 0 0 0 0 900 900
+  vtx 7 0 0 0 0 900 900
+  vtx 8 0 0 0 0 900 900
+  vtx 9 0 0 0 0 900 900
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): VTX 5 levels
+  vtx 0 5 0 0 1 900 1200
+  vtx 1 5 0 0 2 1400 1600
+  vtx 2 5 0 0 5 1600 2100
+  vtx 3 1 0 0 4 900 900
+  vtx 4 0 0 0 0 900 900
+  vtx 5 0 0 0 0 900 900
+  vtx 6 0 0 0 0 900 900
+  vtx 7 0 0 0 0 900 900
+  vtx 8 0 0 0 0 900 900
+  vtx 9 0 0 0 0 900 900
+#$ OPTION END
+
+
+#$ OPTION BEGIN (CHECKED): OSD
+  feature OSD
+  set osd_warn_bitmask = 40959
+  set osd_vbat_pos = 321
+  set osd_link_quality_pos = 2112
+  set osd_rssi_dbm_pos = 2080
+  set osd_tim_2_pos = 2520
+  set osd_flymode_pos = 2138
+  set osd_throttle_pos = 2426
+  set osd_vtx_channel_pos = 18784
+  set osd_crosshairs_pos = 2286
+  set osd_ah_pos = 2159
+  set osd_craft_name_pos = 2059
+  set osd_pilot_name_pos = 2091
+  set osd_altitude_pos = 18489
+  set osd_warnings_pos = 2410
+  set osd_avg_cell_voltage_pos = 2432
+  set osd_disarmed_pos = 363
+  set osd_stat_bitmask = 8419116
+  set pilot_name = Julliet
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Failsafe
+  rxfail 0 a
+  rxfail 3 a
+  rxfail 3 a
+  rxfail 3 s 1600 # Throttle
+  rxfail 8 s 2000 # Angle
+  
+  
+  set failsafe_throttle = 1750
+  set failsafe_procedure = AUTO-LAND
+  set failsafe_delay = 200
+  set failsafe_off_delay = 200
+  set failsafe_throttle_low_delay = 200
+  set failsafe_switch_mode = STAGE1
+  
+  beacon RX_LOST
+#$ OPTION END
+
+aux 0 0 0 1800 2100 0 0 # Arm
+aux 1 1 4 1800 2100 0 0 # Angle
+
+#$ OPTION BEGIN (UNCHECKED): Hide OSD feature(Separate firmware required)
+  adjrange 0 0 2 900 2100 29 2 0 0
+#$ OPTION END
+
+feature SERVO_TILT
+
+#$ OPTION BEGIN (CHECKED): One servo
+# Одна серва (скид)
+  servo 0 1000 2000 1500 100 11
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Two servos
+# Дві серви(камера та скид)
+  servo 0 1000 2000 1500 100 10
+  servo 1 1000 2000 1500 100 11
+#$ OPTION END
+
+set rc_smoothing = ON
+
+mixer QUADX
+map AETR1234
