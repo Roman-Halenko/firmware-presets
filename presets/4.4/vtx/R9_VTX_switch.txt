@@ -14,10 +14,10 @@
 
 #$ OPTION BEGIN (CHECKED): 4 levels
   # Power level switch
-  vtx 0 1 0 0 1 900 1200
-  vtx 1 1 0 0 2 1200 1500
-  vtx 2 1 0 0 3 1500 1800
-  vtx 3 1 0 0 4 1800 2100
+  vtx 0 2 0 0 1 900 1200
+  vtx 1 2 0 0 2 1200 1500
+  vtx 2 2 0 0 3 1500 1800
+  vtx 3 2 0 0 4 1800 2100
   # Channel switch
   vtx 4 5 0 0 0 900 1100  # any
   vtx 5 5 5 1 0 1100 1300 # R1
@@ -29,10 +29,10 @@
 
 #$ OPTION BEGIN (UNCHECKED): 5 levels
   # Power level switch
-  vtx 0 1 0 0 1 900 1200
-  vtx 1 1 0 0 2 1200 1500
-  vtx 2 1 0 0 3 1500 1800
-  vtx 3 1 0 0 5 1800 2100
+  vtx 0 2 0 0 1 900 1200
+  vtx 1 2 0 0 2 1200 1500
+  vtx 2 2 0 0 3 1500 1800
+  vtx 3 2 0 0 5 1800 2100
   # Channel switch 1-6
   vtx 4 5 0 0 0 900 1100  # any
   vtx 5 5 5 1 0 1100 1300 # R1
@@ -44,10 +44,10 @@
 
 #$ OPTION BEGIN (UNCHECKED): 6 levels
   # Power level switch
-  vtx 0 1 0 0 1 900 1200
-  vtx 1 1 0 0 2 1200 1500
-  vtx 2 1 0 0 4 1500 1800
-  vtx 3 1 0 0 6 1800 2100
+  vtx 0 2 0 0 1 900 1200
+  vtx 1 2 0 0 2 1200 1500
+  vtx 2 2 0 0 4 1500 1800
+  vtx 3 2 0 0 6 1800 2100
   # Channel switch 1-6
   vtx 4 5 0 0 0 900 1100  # any
   vtx 5 5 5 1 0 1100 1300 # R1

@@ -14,10 +14,10 @@ rxfail 1 a
 rxfail 2 s 1600
 rxfail 3 s 1550
 rxfail 4 h
-rxfail 5 h
+rxfail 5 s 2000
 rxfail 6 h
 rxfail 7 h
-rxfail 8 s 2000
+rxfail 8 h 
 rxfail 9 h
 rxfail 10 h
 rxfail 11 h
