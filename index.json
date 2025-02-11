@@ -164,7 +164,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/osd/R9_OSD.txt",
-      "hash": "b6d6b8295fd417be363caaff9f86c5af29c94c26970a88a54c9b6ebfe086ad39",
+      "hash": "05a72b91fa31eb63e566f7715286c8af8ffe8bb09eb4fbe95dc8b01027d20e12",
       "title": "R9 OSD settings",
       "firmware_version": [
         "4.3"
