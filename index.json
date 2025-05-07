@@ -180,7 +180,7 @@
     },
     {
       "fullPath": "presets/4.3/other/R9_kamikaze.txt",
-      "hash": "e92359369ca54f7f399437da30e7ff7e279b7a46e5c88bd82ff597de81359433",
+      "hash": "74162419889fb0720cb7d2a86de79455d660d43e61250ee516a08bee3f80dbfc",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.3"
@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_common_drone_settings.txt",
-      "hash": "be3deb94420847dcb3478691e9fad04eefa823a53fe852261d4fc155015581e4",
+      "hash": "ba192eb74f3b6f0d8a0938a02d11010fccb2af1790f2427363d2643ae8fb8331",
       "title": "R9 common drone settings",
       "firmware_version": [
         "4.3",
@@ -288,7 +288,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_kamikaze.txt",
-      "hash": "d71688c0448e719931de42effd7eba7cdaee6a4b20f691e6b6fe9748bb5a9b76",
+      "hash": "f44fd05460e2d51030cf62e332191b0dc6868b5d9289f42f69b97436380d816d",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.4",
@@ -323,27 +323,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/vtx/R9_VTX_switch.txt",
-      "hash": "2416525594dc0ef7ff6dd49fb2114a77a061e70cfdbf111ee32c2796518c3252",
-      "title": "R9 VTX channel and power switch",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "VTX",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "VTX",
-        "switch",
-        "R9"
-      ],
-      "author": "SOVA",
-      "priority": 1000000
-    },
-    {
       "fullPath": "presets/4.4/vtx/R9_VTX_switch_power_only.txt",
-      "hash": "9ef599286e5b2db12f057000421b857e68ec089bd3bab05d05ae010e659731b0",
+      "hash": "a0dd1d58955728cc5450c7cd0c163519739072eb98790373cf70b44c79ba5582",
       "title": "R9 VTX power switch",
       "firmware_version": [
         "4.3",

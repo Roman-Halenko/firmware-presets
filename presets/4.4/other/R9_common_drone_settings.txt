@@ -21,4 +21,6 @@ beacon RX_SET
 # map
 map AETR1234
 
+# features
 feature OSD
+feature TELEMETRY
