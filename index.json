@@ -156,8 +156,8 @@
       "kamikaze",
       "modes",
       "OSD",
+      "power",
       "R9",
-      "switch",
       "VTX"
     ]
   },
@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_common_drone_settings.txt",
-      "hash": "ba192eb74f3b6f0d8a0938a02d11010fccb2af1790f2427363d2643ae8fb8331",
+      "hash": "063ef79fbb0c655475c9e69ea74ee099447b227a3c62866e46f89a061c52c4a8",
       "title": "R9 common drone settings",
       "firmware_version": [
         "4.3",
@@ -280,7 +280,7 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "common",
-        "iv",
+        "R9",
         "general"
       ],
       "author": "SOVA",
@@ -324,7 +324,7 @@
     },
     {
       "fullPath": "presets/4.4/vtx/R9_VTX_switch_power_only.txt",
-      "hash": "a0dd1d58955728cc5450c7cd0c163519739072eb98790373cf70b44c79ba5582",
+      "hash": "66b6a600e4870d4b2414bad95d6f03b19deab1c89b87c83fea87a06547a7e712",
       "title": "R9 VTX power switch",
       "firmware_version": [
         "4.3",
@@ -335,8 +335,8 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "VTX",
-        "switch",
-        "iv"
+        "power",
+        "R9"
       ],
       "author": "SOVA",
       "priority": 1000000

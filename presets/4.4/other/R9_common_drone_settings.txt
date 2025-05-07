@@ -4,7 +4,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: common, iv, general
+#$ KEYWORDS: common, R9, general
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: Failsafe settings for kamikaze to continue flight on a target
 

@@ -4,10 +4,10 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: VTX
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: VTX, switch, iv
+#$ KEYWORDS: VTX, power, R9
 #$ AUTHOR: SOVA
 #$ DESCRIPTION: VTX switch options:
-#$ DESCRIPTION: AUX2 - power levels from 1 to max (4 or 5).
+#$ DESCRIPTION: AUX3 - power levels from 1 to max (4, 5 or 6).
 #$ WARNING: Make sure you picked correct option, according to amount of VTX power levels!
 
 #$ OPTION BEGIN (CHECKED): 4 levels
