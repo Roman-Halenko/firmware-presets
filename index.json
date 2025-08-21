@@ -47,7 +47,8 @@
       "OPTION_CHECKED": "(checked)",
       "OPTION_UNCHECKED": "(unchecked)",
       "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
-      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end",
+      "EXCLUSIVE_OPTION_GROUP": "(exclusive)"
     },
     "PresetStatusEnum": [
       "OFFICIAL",
@@ -288,7 +289,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_kamikaze.txt",
-      "hash": "11f40d82d46d54c65822f2a9a99eed1c22447e5899811dcdd325254c12e9f8fd",
+      "hash": "8ae797e0907b64f51c2f8b9f13574c5765e060a5fb30e71e2a92acd4ef217ebd",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.4",
