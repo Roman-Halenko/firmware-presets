@@ -4,7 +4,7 @@
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: R9, full
 #$ AUTHOR: SOVA
-#$ DESCRIPTION: Includes: OSD, Modes, VTX power and channels switch, Common settings, Failsafe
+#$ DESCRIPTION: Includes: OSD, Modes, VTX power switch, Common settings, Failsafe
 #$ INCLUDE_WARNING: misc/warnings/en/R9_VTX_switch.txt
 
 #$ INCLUDE: presets/4.3/osd/R9_OSD.txt
