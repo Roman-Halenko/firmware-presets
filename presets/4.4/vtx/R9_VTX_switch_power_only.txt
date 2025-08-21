@@ -10,41 +10,43 @@
 #$ DESCRIPTION: AUX3 - power levels from 1 to max (4, 5 or 6).
 #$ WARNING: Make sure you picked correct option, according to amount of VTX power levels!
 
-#$ OPTION BEGIN (CHECKED): 4 levels
-  vtx 0 2 0 0 1 900 1300
-  vtx 1 2 0 0 2 1300 1700
-  vtx 2 2 0 0 4 1700 2100
-  vtx 3 0 0 0 0 900 900
-  vtx 4 0 0 0 0 900 900
-  vtx 5 0 0 0 0 900 900
-  vtx 6 0 0 0 0 900 900
-  vtx 7 0 0 0 0 900 900
-  vtx 8 0 0 0 0 900 900
-  vtx 9 0 0 0 0 900 900
-#$ OPTION END
+#$ OPTION_GROUP BEGIN: (EXCLUSIVE) VTX power levels
+  #$ OPTION BEGIN (CHECKED): 4 levels
+    vtx 0 2 0 0 1 900 1300
+    vtx 1 2 0 0 2 1300 1700
+    vtx 2 2 0 0 4 1700 2100
+    vtx 3 0 0 0 0 900 900
+    vtx 4 0 0 0 0 900 900
+    vtx 5 0 0 0 0 900 900
+    vtx 6 0 0 0 0 900 900
+    vtx 7 0 0 0 0 900 900
+    vtx 8 0 0 0 0 900 900
+    vtx 9 0 0 0 0 900 900
+  #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 5 levels
-  vtx 0 2 0 0 1 900 1300
-  vtx 1 2 0 0 2 1300 1700
-  vtx 2 2 0 0 5 1700 2100
-  vtx 3 0 0 0 0 900 900
-  vtx 4 0 0 0 0 900 900
-  vtx 5 0 0 0 0 900 900
-  vtx 6 0 0 0 0 900 900
-  vtx 7 0 0 0 0 900 900
-  vtx 8 0 0 0 0 900 900
-  vtx 9 0 0 0 0 900 900
-#$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): 5 levels
+    vtx 0 2 0 0 1 900 1300
+    vtx 1 2 0 0 2 1300 1700
+    vtx 2 2 0 0 5 1700 2100
+    vtx 3 0 0 0 0 900 900
+    vtx 4 0 0 0 0 900 900
+    vtx 5 0 0 0 0 900 900
+    vtx 6 0 0 0 0 900 900
+    vtx 7 0 0 0 0 900 900
+    vtx 8 0 0 0 0 900 900
+    vtx 9 0 0 0 0 900 900
+  #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 6 levels
-  vtx 0 2 0 0 1 900 1300
-  vtx 1 2 0 0 2 1300 1700
-  vtx 2 2 0 0 6 1700 2100
-  vtx 3 0 0 0 0 900 900
-  vtx 4 0 0 0 0 900 900
-  vtx 5 0 0 0 0 900 900
-  vtx 6 0 0 0 0 900 900
-  vtx 7 0 0 0 0 900 900
-  vtx 8 0 0 0 0 900 900
-  vtx 9 0 0 0 0 900 900
-#$ OPTION END
+  #$ OPTION BEGIN (UNCHECKED): 6 levels
+    vtx 0 2 0 0 1 900 1300
+    vtx 1 2 0 0 2 1300 1700
+    vtx 2 2 0 0 6 1700 2100
+    vtx 3 0 0 0 0 900 900
+    vtx 4 0 0 0 0 900 900
+    vtx 5 0 0 0 0 900 900
+    vtx 6 0 0 0 0 900 900
+    vtx 7 0 0 0 0 900 900
+    vtx 8 0 0 0 0 900 900
+    vtx 9 0 0 0 0 900 900
+  #$ OPTION END
+#$ OPTION_GROUP END
