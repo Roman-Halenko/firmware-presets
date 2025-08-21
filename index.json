@@ -180,7 +180,7 @@
     },
     {
       "fullPath": "presets/4.3/other/R9_kamikaze.txt",
-      "hash": "74162419889fb0720cb7d2a86de79455d660d43e61250ee516a08bee3f80dbfc",
+      "hash": "4d8a8e86fe41bdf241b270bc97344470fdf41d5db062e722b2807b24ed32107f",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.3"
@@ -269,7 +269,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_common_drone_settings.txt",
-      "hash": "063ef79fbb0c655475c9e69ea74ee099447b227a3c62866e46f89a061c52c4a8",
+      "hash": "249879f2ce5fbf73cfc613c8a617c730390296fd9c0de978e38d733e75193774",
       "title": "R9 common drone settings",
       "firmware_version": [
         "4.3",
@@ -288,7 +288,7 @@
     },
     {
       "fullPath": "presets/4.4/other/R9_kamikaze.txt",
-      "hash": "f44fd05460e2d51030cf62e332191b0dc6868b5d9289f42f69b97436380d816d",
+      "hash": "11f40d82d46d54c65822f2a9a99eed1c22447e5899811dcdd325254c12e9f8fd",
       "title": "R9 full kamikaze setup",
       "firmware_version": [
         "4.4",
