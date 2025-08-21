@@ -16,7 +16,7 @@ mixer QUADX
 
 # beacon
 beacon -RX_LOST
-beacon RX_SET
+beacon -RX_SET
 
 # map
 map AETR1234
